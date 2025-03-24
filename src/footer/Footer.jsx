@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[url('src/assets/pexels2.png')] bg-[rgba(24,23,23,1)] text-white">
+    <div
+      id="contact"
+      className="bg-[url('src/assets/pexels2.png')] bg-[rgba(24,23,23,1)] text-white"
+    >
       <div className="py-5 text-center">
         <h1 className="font-bold text-4xl">Contact Us</h1>
         <div className="flex justify-center gap-4 mt-4">

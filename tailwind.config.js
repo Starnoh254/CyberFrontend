@@ -5,7 +5,10 @@ export default {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
-      }
+      },
+      colors: {
+        myGreen: "#1FAF38",
+      },
     },
   },
   plugins: [],
