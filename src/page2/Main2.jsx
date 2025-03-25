@@ -17,8 +17,10 @@ function Main() {
       className="bg-[rgba(24,23,23,1)] text-white relative h-screen w-full flex flex-col bg-[url('src/assets/image5.png')]"
     >
       <div className="flex flex-col justify-start mt-11">
-        <h1 className="font-montserrat font-bold text-6xl">Who are we?</h1>
-        <p className="font-montserrat font-normal text-3xl mt-5 px-8">
+        <h1 className="font-montserrat font-bold text-2xl md:text-3xl lg:text-5xl">
+          Who are we?
+        </h1>
+        <p className="font-montserrat font-normal text-lg md:text-xl lg:text-2xl mt-5 px-8">
           We are your trusted partner in cyber services, photography, and
           computer repair! Since our establishment, we have been committed to
           providing fast, reliable, and high-quality services to individuals and
@@ -27,8 +29,10 @@ function Main() {
       </div>
 
       <div className="flex flex-col mt-11">
-        <h1 className="font-montserrat font-bold text-6xl">Why Choose us?</h1>
-        <ul className="font-montserrat font-normal text-3xl mt-5">
+        <h1 className="font-montserrat font-bold text-2xl md:text-3xl lg:text-5xl">
+          Why Choose us?
+        </h1>
+        <ul className="font-montserrat font-normal text-lg md:text-xl lg:text-2xl mt-5">
           <li>
             ✅ <Counter end={500} />+ Years of Experience in the industry
           </li>
